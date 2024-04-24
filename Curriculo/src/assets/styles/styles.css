@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background: #c02f75;
+  position: absolute;
+  left: 20%;
+  width: 80%;
+  height: 20%;
+}
+
+.side {
+  background: #eda1c6;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  margin-top: 4rem;
+  font-size: 3rem;
+}
+
+.title-pcd {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.side-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.image {
+  width: 13rem;
+  border-radius: 50%;
+}
+
+.contact {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.852rem;
+}
+
+.WhatsApp {
+  width: 1rem;
+  height: 1rem;
+}
+
+.formation {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.qualifications {
+  margin-top: 3rem;
+  margin-left: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.852rem;
+}
+
+.Senai {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+.skills {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.852rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subtitle-line {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.delphi {
+  width: 1rem;
+  height: 1rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.center {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.container {
+  position: relative;
+  top: 15rem;
+  left: 25%;
+  width: 60%;
+}
+
+.line {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.page {
+  background: #f9eaf2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.pcd {
+  position: absolute;
+  bottom: 5px;
+  background: #0000002e;
+  height: 50%;
+  width: 100%;
+  border-radius: 0 0 25pc 25pc;
+  z-index: 999;
+}
+
+.pcd-description {
+  display: none;
+  color: white;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: bold;
+}
+
+.pcd:hover {
+  background: rgba(0, 0, 0, 0.527);
+}
+
+.alinhamento {
+  margin-right: 1rem;
+}
+.pcd-icon {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 2rem;
+  top: 14rem;
+  opacity: .3;
+
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    left: 30%;
+    width: 70%;
+  }
+
+  .side {
+    width: 30%;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .image {
+    width: 10rem;
+  }
+
+  .container {
+    top: 15rem;
+    left: 35%;
+  }
+
+  .subtitle-line {
+    font-size: 1.125rem;
+  }
+
+  .pcd-description {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    left: 0;
+    width: 100%;
+  }
+  .image {
+    width: 10rem;
+  }
+  .side {
+    width: 40%;
+    height: 100%;
+    top: 13rem;
+  }
+
+  .container {
+    top: 15rem;
+    left: 45%;
+    width: 50%;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    left: 0;
+    width: 100%;
+  }
+  .image {
+    width: 10rem;
+  }
+  .side {
+    width: 100%;
+    height: 100%;
+    top: 13rem;
+  }
+
+  .container {
+    top: 68rem;
+    left: 2rem;
+    width: 85%;
+  }
+}
